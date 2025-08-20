@@ -313,7 +313,8 @@ body{
 } 
 
 .frame421{
-    background-color: #000000;
+    background-color: #ffffff;
+    border:2px solid #000000;
     max-width: 56px;
     height: 56px;
     border-radius: 4px;
@@ -321,7 +322,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0px;
+    
+}
+.svg421{
+    color: #000000;
 }
 
 /* .svg421{
@@ -1066,7 +1070,8 @@ input{
 .button2{
     height: 56px;
     text-align: center;
-    background-color: #000000;
+    background-color: #ffffff;
+    border: 2px solid black;
     padding: 18px;
 
 }
@@ -1603,7 +1608,9 @@ input{
     
     }
     .button2 , .button3{
-       
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         padding: 14px;
        
