@@ -321,6 +321,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0px;
 }
 
 /* .svg421{
@@ -608,6 +609,10 @@ body{
    font-weight: 400px;
    color: #D4D4D8;
 }
+.About-me{
+    padding-top: 60px;
+    
+}
 .contaner-about{
     max-width: 1440px;
     width: 100%;
@@ -737,10 +742,15 @@ body{
     padding-top: 59.3px;
 
 }
+ a{
+     color: #000000;
+    text-decoration: none;
 
+
+ }
+ 
 .project2-1{
     font-size: 48px;
-    line-height: 56px;
     color: #ffffff;
     margin-bottom: 38px;
 
@@ -754,7 +764,6 @@ body{
 }
 .project2-3{
     font-size: 16px;
-    line-height: 56px;
     color: #71717A;
     margin-bottom: 28px;
     
@@ -771,8 +780,8 @@ body{
     justify-content: left;
     flex-direction: column;
     white-space:wrap;
-    padding-bottom: 110px;
-    padding-top:20px;
+    padding-bottom: 80px;
+    padding-top:80px;
     padding-left: 40px;
     padding-right: 0;
     line-height: 28px;
@@ -808,7 +817,7 @@ body{
     justify-content: left;
     flex-direction: column;
     white-space:wrap;
-    padding-bottom: 0px;
+    padding-bottom: 66px;
     padding-top:150px;
     padding-left: 0px;
     padding-right: 0;
@@ -1669,27 +1678,25 @@ input{
     font-size: 12px;
     gap: 8px;
 }
-.frame421:hover .frame422{
-  background-color: #000;
-  color: white;
-  border-color: #000;
+button:active {
+  background-color: #000000 !important; /* دکمه سیاه */
+  color: #ffffff !important;            /* متن سفید */
+  transform: scale(0.95);
 }
 
-.btn:hover {
-  background-color: #000;
-  color: white;
-  border-color: #000;
+.button-header:active span,
+.button-header:active strong,
+.button-header:active div {
+  color: #ffffff !important;
 }
 
-.btn:hover .btn-text {
-  color: white;
+.button-header:active svg {
+  background-color: #ffffff !important;
+  border-radius: 4px;
 }
 
-.btn:hover .icon-bg {
-  fill: #fff; /* پس‌زمینه SVG سفید میشه */
-}
-
-.btn:hover .icon-text {
-  fill: #000; /* متن داخل SVG مشکی میشه */
+.button-header:active svg path {
+  fill: #000000 !important;
+  stroke: #000000 !important;
 }
 }
